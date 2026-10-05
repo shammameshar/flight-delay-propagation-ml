@@ -6,3 +6,4 @@ outputs/models/
 .ipynb_checkpoints/
 anaconda_projects/
 __pycache__/
+.virtual_documents/
