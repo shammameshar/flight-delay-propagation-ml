@@ -1,0 +1,8 @@
+step,reason,rows_removed,rows_remaining,pct_of_original
+Merged 2025 data,Starting point,0,7001619,0.0
+Cancelled flights,Did not operate; no arrival delay,102876,6898743,1.47
+Diverted flights,Did not reach planned destination,19258,6879485,0.28
+Missing tail number,Cannot be linked to an aircraft,0,6879485,0.0
+Missing key values,"Delay, schedule or distance missing",1,6879484,0.0
+Invalid scheduled clock times,Not a real HHMM time,0,6879484,0.0
+Non-positive duration or distance,Physically impossible,1,6879483,0.0

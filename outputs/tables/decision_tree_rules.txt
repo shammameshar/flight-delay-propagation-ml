@@ -1,0 +1,46 @@
+|--- SCHED_TURN <= 72
+|   |--- TURN_BUFFER <= 24
+|   |   |--- SCHED_TURN <= 28
+|   |   |   |--- OP_UNIQUE_CARRIER_OO <= 0
+|   |   |   |   |--- truncated branch of depth 5
+|   |   |   |--- OP_UNIQUE_CARRIER_OO >  0
+|   |   |   |   |--- class: Amplified
+|   |   |--- SCHED_TURN >  28
+|   |   |   |--- PREV_NAS_DELAY <= 12
+|   |   |   |   |--- truncated branch of depth 9
+|   |   |   |--- PREV_NAS_DELAY >  12
+|   |   |   |   |--- truncated branch of depth 9
+|   |--- TURN_BUFFER >  24
+|   |   |--- PREV_ARR_DELAY <= 22
+|   |   |   |--- TURN_BUFFER <= 34
+|   |   |   |   |--- truncated branch of depth 9
+|   |   |   |--- TURN_BUFFER >  34
+|   |   |   |   |--- truncated branch of depth 9
+|   |   |--- PREV_ARR_DELAY >  22
+|   |   |   |--- OP_UNIQUE_CARRIER_OO <= 0
+|   |   |   |   |--- truncated branch of depth 9
+|   |   |   |--- OP_UNIQUE_CARRIER_OO >  0
+|   |   |   |   |--- truncated branch of depth 5
+|--- SCHED_TURN >  72
+|   |--- SCHED_TURN <= 100
+|   |   |--- SCHED_TURN <= 82
+|   |   |   |--- OP_UNIQUE_CARRIER_OO <= 0
+|   |   |   |   |--- truncated branch of depth 9
+|   |   |   |--- OP_UNIQUE_CARRIER_OO >  0
+|   |   |   |   |--- truncated branch of depth 5
+|   |   |--- SCHED_TURN >  82
+|   |   |   |--- PREV_NAS_DELAY <= 8
+|   |   |   |   |--- truncated branch of depth 9
+|   |   |   |--- PREV_NAS_DELAY >  8
+|   |   |   |   |--- truncated branch of depth 9
+|   |--- SCHED_TURN >  100
+|   |   |--- PREV_DEP_DELAY <= 56
+|   |   |   |--- DEP_HOUR <= 10
+|   |   |   |   |--- truncated branch of depth 9
+|   |   |   |--- DEP_HOUR >  10
+|   |   |   |   |--- truncated branch of depth 9
+|   |   |--- PREV_DEP_DELAY >  56
+|   |   |   |--- SCHED_TURN <= 130
+|   |   |   |   |--- truncated branch of depth 9
+|   |   |   |--- SCHED_TURN >  130
+|   |   |   |   |--- truncated branch of depth 9

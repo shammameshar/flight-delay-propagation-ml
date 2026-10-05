@@ -1,0 +1,7 @@
+step,rule,rows_removed,rows_remaining,pct_of_cleaned
+Cleaned flights,Starting point,0,6879483,0.0
+First flight of each aircraft,No previous flight in 2025,6127,6873356,0.09
+Airport mismatch,Previous flight did not land where this one departs,104558,6768798,1.52
+Aircraft substitution,Flight not scheduled for this aircraft (sched. turnaround < 10 min),96775,6672023,1.41
+Long ground time (> 6 h),Overnight/long stop: delay chain resets,1562385,5109638,22.71
+Departed before previous arrival,Physically impossible = recording error,14,5109624,0.0

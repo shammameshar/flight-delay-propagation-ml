@@ -1,0 +1,5 @@
+params,mean_test_score,std_test_score
+"{'clf__max_depth': 10, 'clf__min_samples_leaf': 50}",0.5017522186376049,0.004633034984549776
+"{'clf__max_depth': 10, 'clf__min_samples_leaf': 200}",0.5001597549381753,0.004695383054126164
+"{'clf__max_depth': 16, 'clf__min_samples_leaf': 50}",0.5109807137432142,0.004168625552054774
+"{'clf__max_depth': 16, 'clf__min_samples_leaf': 200}",0.5044954121296812,0.003996638887837983

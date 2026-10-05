@@ -1,0 +1,5 @@
+comparison,mean_difference,ci_low,ci_high,share_RF_better
+Random Forest - Decision Tree,0.0097,0.0075,0.0119,1.0
+Random Forest - RBF SVM,0.0249,0.0203,0.0294,1.0
+Random Forest - Linear SVM,0.0281,0.0223,0.0351,1.0
+Random Forest - Logistic Regression,0.0324,0.0279,0.0372,1.0

@@ -1,0 +1,8 @@
+data/
+outputs/models/
+*.pdf
+*.docx
+.DS_Store
+.ipynb_checkpoints/
+anaconda_projects/
+__pycache__/
